@@ -1,0 +1,67 @@
+<html>
+ <title>Project 78</title>
+ <body>
+     <h1>My family book</h1>
+<center>
+<span>    
+        <img src="https://images-na.ssl-images-amazon.com/images/I/515BniafrYL._SX479_BO1,204,203,200_.jpg" >
+<img id="pic">
+    </span>
+    <br>
+    <br>
+    <br>
+    <h2 id="name"></h2>
+    <br>    
+    <br>
+
+    <span>
+    <button onclick="update1();">1</button>
+    <br>    
+<br>
+<button onclick="update2();">2</button>
+<br>    
+<br>
+<button onclick="update3();">3</button>
+<br>    
+<br>
+<button onclick="update4();">4</button>
+</span>
+
+</center> 
+    </body>   
+    <script>
+        
+        
+            var names = ["Emma","Saif","Sonu","Jaicob"]
+            var image = ["https://p.kindpng.com/picc/s/150-1500029_girls-girl-dancing-kids-scrapbook-cartoon-kid.png","https://en.pimg.jp/040/385/499/1/40385499.jpg","https://image.shutterstock.com/image-vector/working-mom-260nw-158801603.jpg","https://cdn2.vectorstock.com/i/1000x1000/00/06/teen-boy-character-avatar-vector-11360006.jpg"]
+
+            function update1()
+            {
+                document.getElementById("name").innerHTML = names[0]
+                document.getElementById("pic").innerHTML = image[0]
+                console.log("name")
+                console.log("pic")
+            }
+            function update2()
+            {
+                document.getElementById("name").innerHTML = names[1]
+                document.getElementById("pic").innerHTML = image[1]
+                console.log("name")
+                console.log("pic")
+            }
+            function update3()
+            {
+                document.getElementById("name").innerHTML = names[2]
+                document.getElementById("pic").innerHTML = image[2]
+                console.log("name")
+                console.log("pic")
+            }
+            function update4()
+            {
+                document.getElementById("name").innerHTML = names[3]
+                document.getElementById("pic").innerHTML = image[3]
+                console.log("name")
+                console.log("pic")
+            }
+   </script>
+</html>
